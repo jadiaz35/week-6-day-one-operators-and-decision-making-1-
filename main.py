@@ -1,3 +1,5 @@
+print('Juan Diaz')
+
 # fork the repl.it and create a new git hub repo entitled 
 #Comparison operators
 # Logical operators
@@ -15,6 +17,8 @@
 seconds = [1.23, 1.45, 1.02]
 current = 1.11
 
+seconds.append('1.11')
+print(seconds)
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
 
