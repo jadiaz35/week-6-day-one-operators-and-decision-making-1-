@@ -21,12 +21,18 @@ seconds.append('1.11')
 print(seconds)
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
+seconds.remove(1.45)
+print(seconds)
 
 
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
+seconds.remove(1.23)
+seconds.remove(1.45)
+seconds.remove(1.02)
+seconds.remove(1.11)
 
-
+print(seconds)
 ################################comparison operators#########################
 #remember....
 # > greater
@@ -36,13 +42,32 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # == equal
 # != different or not equal to
 
+my_bool = 10 == 24
+print(my_bool) #false
 
+my_bool = 5 + 5 == 10 - 0 
+print(my_bool) #true
 
+my_bool = 'white' == 'White'
+print(my_bool)
 
+my_bool = 4 < 5 and 5 >= 6
+print(my_bool)
+
+my_bool = (55 == 55) and (5 == 2 + 3)
+print(my_bool)
+
+text = "this sentence is short"
+#my_bool = ( 'sentence ' in text) and ( 'short' in text)
+my_bool = ( 'sentence ' in text) or ( 'python' in text)
+print(my_bool)
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print(my_bool)
 
 
 # Comparison Operators Practice  2:
@@ -50,7 +75,10 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
-
+num1 = 25 ** (1/2)
+num2 = 5
+my_bool = num1 == num2
+print(my_bool)
 
 # Comparison Operators Practice #3:
 # Create two variables (num1 and num2):
@@ -61,7 +89,9 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
-
+num1 = 64 * 3
+num2 = 24 * 9
+my_bool = num1 == num2
 
 
 
@@ -80,8 +110,11 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Inside num3, store the value 48
 
 # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
-
-
+num1 = 36
+num2 = 72/2
+num3 = 48
+my_bool = (num1 > num2) and (num1 < num3)
+print(my_bool)
 
 
 # Logical Operators Practice #2
