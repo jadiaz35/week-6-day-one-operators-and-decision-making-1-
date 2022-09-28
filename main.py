@@ -127,6 +127,11 @@ print(my_bool)
 # Inside num3, store the value 48
 
 # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
+num1 = 36
+num2 = 72/2
+num3 = 48
+my_bool = (num1 > num2) or (num2 < num3)
+print(my_bool)
 
 
 
@@ -140,7 +145,11 @@ print(my_bool)
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
-
+word1 = "success"
+word2 = "technology"
+quote = "When something is important enough, you do it even if the odds are against you"
+my_bool = word1 in quote and word2 in quote
+print(my_bool)
 
 
 
